@@ -26,5 +26,5 @@ jobs:
         server-username: GITHUB_ACTOR
         server-password: GITHUB_TOKEN
 
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: Compile Java arrays
+      run: javac -d . src/com/timbuchalka/*.java
